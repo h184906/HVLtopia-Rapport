@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+      <link rel="stylesheet" href="/css/style.css">
       <meta charset="utf-8">
       <title>Energi og Miljø</title>
-      <style>
-          /* Center the body content */
-          body {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              flex-direction: column;
-              min-height: 10vh;
-              margin: 0;
-              text-align: center;  
-          }
-      </style>
   </head>
 
   <body>
-    
-      <h1>Energi og Miljø</h1>
+      <nav class="banner">
+          <div id="side_menu_button" class="box">|||</div>
+          <div class="side_menu">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+          </div>
+          <div class="box" id="center_banner">
+              <a href="index.html"><img src="/images/main_logo.png" alt="HomeButton"></a>
+          </div>
+          <div class="box" id="user_noe">
+              <a href="">Søkebar</a>
+              <a href="userProfile.html" id="user_login_logo"><img src="/images/5087579.png" alt="User login"></a>
+          </div>
+      </nav>
 
+      <h1>Energi og Miljø</h1>
+      
       <h2>Vårt mål for hvordan vi skal redusere energiforbruket og karbonavtrykket i dette prosjektet.</h2>
 
       <img src="/images/hvl.jpg" alt="Energi" width="800">
 
+      <br>
+
       <p>blah blah blah blah blah <strong>BLAH BLAH</strong> blah blah <i>blahhhh</i>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla risus id dui tempor, nec elementum felis lobortis. 
-      Aenean vulputate felis vel gravida venenatis. Integer id quam tellus.
-      Vestibulum vitae enim egestas, convallis arcu nec, commodo nulla. Etiam sit amet lobortis erat.
-      Nulla posuere cursus purus, ut tristique nunc feugiat at. Vestibulum accumsan quis ligula non tempor. 
-      In feugiat ut orci id semper. Etiam vulputate dui at In feugiat ut orci id semper. Etiam vulputate dui 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla risus id dui tempor, nec elementum felis lobortis. 
+          Aenean vulputate felis vel gravida venenatis. Integer id quam tellus.
+          Vestibulum vitae enim egestas, convallis arcu nec, commodo nulla. Etiam sit amet lobortis erat.
+          Nulla posuere cursus purus, ut tristique nunc feugiat at. Vestibulum accumsan quis ligula non tempor. 
+          In feugiat ut orci id semper. Etiam vulputate dui at In feugiat ut orci id semper. Etiam vulputate dui 
       </p>
 
       <img src="/images/future.jpg" width="300" height="300" alt="what the sigma">
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla risus id dui tempor, nec elementum felis lobortis. 
           Aenean vulputate felis vel gravida venenatis. Integer id quam tellus.
-          Vestibulum vitae enim egestas,</p>
+          Vestibulum vitae enim egestas,
+      </p>
+      
+      <br>
 
       <ul>
           <li>først skal vi gjøre dette! <strong>blah blah</strong></li>
@@ -45,11 +55,16 @@
           <li>Og da dette! <strong>blah blah</strong></li>
       </ul>
 
+      <br>
+
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla risus id dui tempor, nec elementum felis lobortis. 
           Aenean vulputate felis vel gravida venenatis. Integer id quam tellus.
-          Vestibulum vitae enim egestas,</p>
+          Vestibulum vitae enim egestas,
+      </p>
+    
+      <br>
 
-      <table>
+      <table style="margin: 0 auto; border-collapse: collapse;">
           <tr>
               <th>Prosjektrolle</th>
               <th>Navn</th>
@@ -92,9 +107,45 @@
       <p>Hvis du har noen metoder eller anbefalinger til våres prosjekt så kan du skrive her!</p>
 
       <form>
-        <textarea style="width: 300px; height: 150px;"></textarea><br>
-        <input type="submit" value="Submit">
-      </form> 
-  
+          <textarea style="width: 300px; height: 150px;"></textarea><br>
+          <input type="submit" value="Submit">
+      </form>
+
+      <footer>
+          <div id="socials">
+              <ul>
+                  <li><a href="https://www.instagram.com"><img src="/images/instagram.webp" alt="Instagram"></a></li>
+                  <li><a href="https://www.linkedin.com"><img src="/images/linkedin.png" alt="Linkedin"></a></li>
+                  <li><a href="https://x.com/?lang=nb"><img src="/images/X.png" alt="X"></a></li>
+                  <li><a href="https://www.facebook.com"><img src="/images/Facebook.png" alt="Facebook"></a></li>
+              </ul>
+          </div>
+          <div id="footer_links">
+              <div>
+                  <h2>Snarvei</h2>
+                  <ul>
+                      <li><a href="">Løsning og resultat</a></li>
+                      <li><a href="">Bærekraft</a></li>
+                      <li><a href="">Om prosjektet</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <h2>Hjelp og støtte</h2>
+                  <ul>
+                      <li><a href="ofteStiltSpørsmål.html">Ofte stilte spørsmål</a></li>
+                      <li><a href="ofteStiltSpørsmål.html">Kundeservice</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <h2>Kontakt Oss</h2>
+                  <ul>
+                      <li><a href="">Epost: eksempel@gmail.com</a></li>
+                      <li><a href="">Telefon: 12345678</a></li>
+                      <li><a href="">Kontakt: HVLtopia</a></li>
+                      <li><a href="">Chat med oss</a></li>
+                  </ul>
+              </div>
+          </div>
+      </footer>
   </body>
 </html>
