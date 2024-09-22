@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    --white-: #fff;
+    --black-: #000;
+    --left_menu_color- : #333;
+    --background_color-: #eee;
+    --left_menu_active_choice: #575757;
+    background-color: var(--background_color-);
+    --banner_heigth- : 120px;
+    --light_grey-: #777;
+    --light_green-: #4CAF50;
+}
+
+.banner {
+    /* background: url("./Bilder/bannerBilde.png"), no-repeat; */
+    /* background-color: var(--left_menu_active_choice); */
+    background-color: var(--background_color-);
+    position: sticky;
+    top: 0;
+    height: var(--banner_heigth-);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    font-size: 200%;
+    font-family: 'Nosifer', sans-serif;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box {
+    text-decoration: none;
+    display: flex;
+    margin: 35px;
+    cursor: pointer;
+    z-index: 1; 
+    align-items: center;
+    height: var(--banner_heigth-);
+    width: 400px;
+}
+
+#center_banner {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    object-fit: contain;  
+    height: var(--banner_heigth-); 
+    max-width: 100%; 
+}
+
+.side_menu {
+    position: absolute;
+    top: 0;
+    left: -250px; 
+    height: 100vh;
+    width: 250px;
+    background-color: var(--left_menu_color-);
+    transition: left 0.3s ease; 
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.side_menu a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--white-);
+    white-space: nowrap;
+    transition: 0.3s;
+    display: block;
+}
+
+.side_menu a:hover {
+    background-color: var(--left_menu_active_choice);
+}
+
+#side_menu_button:hover + .side_menu {
+    left: 0;
+}
+
+.side_menu:hover {
+    left: 0;
+}
+
+#user_noe {
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#user_noe a {
+    text-decoration: none;
+    color: var(--black-);
+} 
+
+/* #user_login_logo img{
+    height:;
+} */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 45px;
+    box-shadow: 0px -37px 52px -44px rgba(0,0,0,0.65);
+}
+
+main div{
+    margin-bottom: 40px;
+}
+
+.scenic {
+    overflow: hidden;
+    height: 500px;
+    min-width: 100%;
+}
+
+.vis {
+    /* border: 5px solid red; */
+    width: 100%;
+}
+
+.diverse_items {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: space-between;
+}
+
+.diverse_items > div {
+    width: 33%;
+    overflow: hidden;
+}
+
+.diverse_items > div a {
+    height: 100%;
+    width: 100%;
+}
+
+.diverse_items > div a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#categories_wrapper {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories h2 {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.categories_items {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories_items > div {
+    min-height: 410px;
+    max-width: 330px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+.categories_items > div a {
+    height: 50%;
+    width: 100%;
+}
+
+.categories_items > div a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.items_info {
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+footer {
+    border-top: 2px solid black;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socials {
+    width: 30%;
+    height: 250px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socials ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 65%;
+    list-style-type: none;
+}
+
+
+#socials ul li img {
+    height: 65px;
+    width: 65px;
+}
+
+
+
+#footer_links {
+    width: 70%;
+    height: 250px;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer_links h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#footer_links div {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer_links div ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    gap: 15px;
+}
+
+#footer_links div ul a{ 
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--black-);
+}
+
+
+
+/* For kontakt oss side utenom tidligere kode*/
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid var(--black-);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: var(--light_green-);
+    color: var(--white-);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#kontaktOss{
+    max-width: 400px; 
+    min-width: 300px;
+    margin: 80px;
+    padding: 20px; 
+    border: 2px solid var(--black-); 
+    border-radius: 5px;
+    height: fit-content;
+    min-height: 300px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#kontaktOss form{
+    width: 80%;
+    margin-top: 5%;
+}
+
+.tran {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tran img { 
+    width:100%;
+}
+
+
+@media screen and (max-width: 1800px) {
+    main {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    #categories_wrapper {
+        width: 80%;
+        margin-left: -10%;
+    }
+}
+
+.hovedbox {
+     
+}
+
+
+
+
+
+
+
