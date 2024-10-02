@@ -125,9 +125,19 @@ main div{
 }
 
 .scenic {
+    position: relative;
     overflow: hidden;
     height: 500px;
     min-width: 100%;
+}
+
+.scenic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
 
 .vis {
@@ -325,21 +335,55 @@ input[type="submit"] {
     margin-top: 5%;
 }
 
-.tran {
+#skrift {
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    color: var(--black-); 
+    text-align: center;
+    z-index: 1;
+    width: 450px;
+    height: 450px; 
+    border-radius: 50%;
+    border: 5px solid var(--black-);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; 
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 25px;
 }
 
-.tran img { 
-    width:100%;
+#skrift p {
+    word-break: break-word;
+
 }
+
+
+#skrift:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); 
+}
+
+
+#skrift h1, #skrift p {
+    margin: 0;
+    padding: 0;
+}
+
+#løsning_bilde {
+    height: 800px;
+}
+
+
 
 /*Jonas css her: */
 
 
 /*Domas css her: */
-
+ 
 
 /*Gabriel css her: */
 
