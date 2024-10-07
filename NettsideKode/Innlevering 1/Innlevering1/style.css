@@ -422,6 +422,35 @@ input[type="submit"] {
 
 /*Fredrik css her: */
 
+.reisetabell1 {
+    margin-top: 30px;
+    display: block;
+}
+
+.reisetabell2 {
+    margin-top: 30px;
+    display: block;
+}
+
+.reisetabell3 {
+    margin-top: 30px;
+    display: block;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
 
 
 
