@@ -422,6 +422,22 @@ input[type="submit"] {
 
 /*Fredrik css her: */
 
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+}
+
+h3 {
+    text-align:center;
+}
+
+h4 {
+    text-align:center;
+}
+
 .reisetabell1 {
     margin-top: 30px;
     display: block;
