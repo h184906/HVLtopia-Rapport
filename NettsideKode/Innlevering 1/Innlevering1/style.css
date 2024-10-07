@@ -13,11 +13,12 @@ body {
     --banner_heigth- : 120px;
     --light_grey-: #777;
     --light_green-: #4CAF50;
+    --cover_text-: #f3f3f3;
+
 }
 
+/* Banner styling */
 .banner {
-    /* background: url("./Bilder/bannerBilde.png"), no-repeat; */
-    /* background-color: var(--left_menu_active_choice); */
     background-color: var(--background_color-);
     position: sticky;
     top: 0;
@@ -54,6 +55,7 @@ body {
     max-width: 100%; 
 }
 
+/* Side Menu Styling */
 .side_menu {
     position: absolute;
     top: 0;
@@ -92,6 +94,7 @@ body {
     left: 0;
 }
 
+
 #user_noe {
     display: flex;
     margin-right: 20px;
@@ -102,7 +105,49 @@ body {
 #user_noe a {
     text-decoration: none;
     color: var(--black-);
-} 
+}
+
+#search_form {
+    display: flex;
+    align-items: top;
+    margin-right: 20px;
+}
+
+#search_bar {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid var(--black-);
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+#search_bar::placeholder {
+    color: #999;
+    font-size: 14px;
+}
+
+#search_button {
+    background-color: var(--background_color-); 
+    border: 1px solid var(--black-);
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 41px;
+}
+
+#search_button img {
+    width: 20px;
+    height: 20px;
+}
+
+#search_button:hover {
+    background-color: var(--light_grey-); 
+}
+
 
 
 main {
@@ -128,7 +173,7 @@ main div{
 
 #introtekst div {
     height: 150px;
-    background-color: var(--white-);
+    background-color: var(--cover_text-);
 }
 
 
@@ -174,6 +219,7 @@ main div{
 .lesbarLink {
     color: var(--black-);
 }
+
 .diverse_items > div a.link-box {
     position: absolute; 
     bottom: 10px; 
@@ -218,11 +264,13 @@ main div{
     flex-direction: row;   
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .categories_items > div {
     min-height: 410px;
     max-width: 330px;
+    width: 25%;
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
@@ -322,9 +370,6 @@ footer {
     color: var(--black-);
 }
 
-
-
-/* For kontakt oss side utenom tidligere kode*/
 
 input[type="text"],
 textarea {
@@ -631,7 +676,7 @@ input[type="submit"] {
 
 
  
-@media screen and (max-width: 1800px) {
+  @media screen and (max-width: 1800px) {
     main {
         width: 100%;
         margin-left: 0%;
@@ -639,7 +684,34 @@ input[type="submit"] {
     
     #categories_wrapper {
         width: 80%;
-        margin-left: -10%;
+    }
+
+    .categories_items {
+        justify-content: space-around; 
+    }
+
+    .categories_items > div {
+        width: 45%; 
+        margin-bottom: 25px; 
+    }
+
+    body {
+        --banner_heigth- : 100px;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .categories_items > div {
+        width: 100%; 
+    }
+
+    #socials ul li img {
+        width: 35px;
+        height: 35px;
+    }
+
+    body {
+        --banner_heigth- : 80px;
+    }
+
+}
