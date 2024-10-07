@@ -422,23 +422,23 @@ input[type="submit"] {
 
 /*Fredrik css her: */
 
-h1 {
+.transport-h1 {
     text-align:center;
     font-size: 36px;
     
 }
 
-h2 {
+.transport-h2 {
     text-align:center;
     font-size: 36px;
 }
 
-h3 {
+.transport-h3 {
     text-align:center;
     font-size: 36px;
 }
 
-h4 {
+.transport-h4 {
     text-align:center;
     font-size: 36px;
 }
