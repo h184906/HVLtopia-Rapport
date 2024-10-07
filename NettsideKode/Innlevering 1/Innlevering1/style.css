@@ -37,7 +37,6 @@ body {
     text-decoration: none;
     display: flex;
     margin: 35px;
-    cursor: pointer;
     z-index: 1; 
     align-items: center;
     height: var(--banner_heigth-);
