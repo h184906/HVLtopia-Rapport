@@ -30,6 +30,7 @@ body {
     font-family: 'Nosifer', sans-serif;
     justify-content: space-between;
     width: 100%;
+    z-index: 5;
 }
 
 .box {
@@ -453,7 +454,37 @@ input[type="submit"] {
     height: 800px;
 }
 
+#løsning_resultat_utskrift_box {
+    width: 80%;
+    background-color: var(--white-);
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+    color: var(--black-);
+}
 
+#knapp_box {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.knapp {
+    background-color: var(--left_menu_active_choice);
+    color: var(--cover_text-);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.knapp:hover {
+    background-color: var(--light_grey-);
+}
 
 /*Jonas css her: */
 
