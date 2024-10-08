@@ -489,8 +489,63 @@ input[type="submit"] {
 
 
 /*Domas css her: */
- 
 
+.EnergiH1 {
+    text-align: right;
+    font-size: 100px;
+    margin-right: 7vw;
+    margin-top: 0.5vw;
+    position: absolute;
+    top: 10%;
+    right: 3vw; 
+    z-index: 1; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.EnergiH2 {
+    text-align: right;
+    font-size: 30px;
+    margin-right: 3vw;
+    margin-bottom: 5vw;
+    position: absolute; 
+    top: 35%;
+    right: 3vw;
+    z-index: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.Energiimg {
+    position: realtive; 
+    margin-right: 45vw;
+    margin-top: 2vw;
+    width: 25vw;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Energiimg2 {
+    position: realtive; 
+    margin-left: 45vw;
+    margin-top: 2vw;
+    width: 25vw;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Energicontainer {
+    display: flex; 
+    align-items: center; 
+}
+
+.Energip1 {
+
+}
+
+.Energip2 {
+
+}
 /*Gabriel css her: */
 
 

@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-      <link rel="stylesheet" href="energiMiljo.css">
+      <link rel="stylesheet" href="style.css">
       <meta charset="utf-8">
       <title>Energi og Miljø</title>
   </head>
 
   <body>
-
     <nav class="banner">
 
         <div id="side_menu_button" class="box">|||</div>
         <div class="side_menu">
             <a href="index.html">Home</a>
-            <a href="omProsjektSide.html">About Prodject</a>
-            <a href="transport.html">Transport</a>
-            <a href="EnergiogMiljo.html">Energi og Miljø</a>
-            <a href="omOss.html">Om Oss</a>
+            <a href="omProsjektSide.html">Om prosjektet</a>
+            <a href="omOss.html">HVLtopias team</a>
+            <a href="userProfile.html">Min side</a>
         </div>
-    
-        
     
         <div class="box" id="center_banner">
             <a href="index.html"><img src="./Bilder/Banner/main_logo.png" alt="HomeButton" ></a>
         </div>
     
         <div class="box" id="user_noe">
-            <a href="">Søkebar</a>
-            <a href="userProfile.html" id="user_login_logo"><img src="./Bilder/Banner/5087579.png" alt="User login"></a>
-        </div>  
+            <form method="get" id="search_form">
+                <input type="text" placeholder="Søk her..." name="search" id="search_bar">
+                <button type="submit" id="search_button"><img src="./Bilder/Banner/søkeIcon.png" alt="Søk"></button>
+            </form>
+            <a href="userProfile.html" target="_blank" id="user_login_logo"><img src="./Bilder/Banner/5087579.png" alt="User login"></a>
+        </div>
     </nav>
 
-      <h1>Energi og Miljø</h1>
-      
-      <h2>Vårt mål for hvordan vi skal redusere energiforbruket og karbonavtrykket i dette prosjektet.</h2>
+    <main>
+    <div class="scenic">
+      <img src="./Bilder/Energi/banner.jpg">
+      <h1 class="EnergiH1">Energi og Miljø</h1>
+      <h2 class="EnergiH2">Vårt mål for hvordan vi skal redusere energiforbruket og karbonavtrykket i Bergen.</h2>
+    </div>
 
-      <img src="./Bilder/Energi/hvl.jpg" alt="Energi" width="800">
+      <div class="Energicontainer">
+      <img class="Energiimg" src="./Bilder/Energi/ideas.png" alt="Idear" width="800"> 
+      <p class="Energip1">oga boga</p>
+    </div>
 
-      <br>
+     <div class="Energicontainer">
+      <img class="Energiimg2" src="./Bilder/Energi/future.jpg" alt="Fremtid">
+      <p class="Energip2">oga boga</p>
+     </div>
 
-      <p>blah blah blah blah blah <strong>BLAH BLAH</strong> blah blah <i>blahhhh</i>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla risus id dui tempor, nec elementum felis lobortis. 
-          Aenean vulputate felis vel gravida venenatis. Integer id quam tellus.
-          Vestibulum vitae enim egestas, convallis arcu nec, commodo nulla. Etiam sit amet lobortis erat.
-          Nulla posuere cursus purus, ut tristique nunc feugiat at. Vestibulum accumsan quis ligula non tempor. 
-          In feugiat ut orci id semper. Etiam vulputate dui at In feugiat ut orci id semper. Etiam vulputate dui 
-      </p>
-
-      <img src="./Bilder/Energi/future.jpg" width="300" height="300" alt="what the sigma">
+     <div class="Energicontainer">
+        <img class="Energiimg" src="./Bilder/Energi/future.jpg" alt="Fremtid">
+        <ul>
+            <li>først skal vi gjøre dette! <strong>blah blah</strong></li>
+            <li>Også dette! <strong>blah blah</strong></li>
+            <li>Og da dette! <strong>blah blah</strong></li>
+        </ul>
+       </div>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla risus id dui tempor, nec elementum felis lobortis. 
           Aenean vulputate felis vel gravida venenatis. Integer id quam tellus.
@@ -56,11 +63,7 @@
       
       <br>
 
-      <ul>
-          <li>først skal vi gjøre dette! <strong>blah blah</strong></li>
-          <li>Også dette! <strong>blah blah</strong></li>
-          <li>Og da dette! <strong>blah blah</strong></li>
-      </ul>
+
 
       <br>
 
@@ -117,7 +120,8 @@
           <textarea style="width: 300px; height: 150px;"></textarea><br>
           <input type="submit" value="Submit">
       </form>
-      
+    </main>
+
       <footer>
         <div id="socials">
             <ul>
@@ -146,10 +150,10 @@
             <div>
                 <h2>Kontakt Oss</h2>
                 <ul>
-                    <li><a href="">Epost: eksempel@gmail.com</a></li>
-                    <li><a href="">Telefon: 12345678</a></li>
-                    <li><a href="">Kontakt: HVLtopia</a></li>
-                    <li><a href="">Chat med oss</a></li>
+                    <li><a href="mailto:HVLtopia.stud.eksempel@gmail.com">Epost: eksempel@gmail.com</a></li>
+                    <li><a href="tel:12345678">Telefon: 12345678</a></li>
+                    <li><a href="ofteStiltSporsmaal.html">Kontakt: HVLtopia</a></li>
+                    <li><a href="ofteStiltSporsmaal.html">Chat med oss</a></li>
                 </ul>
             </div>
         </div>
