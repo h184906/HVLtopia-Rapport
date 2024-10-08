@@ -390,7 +390,7 @@ input[type="submit"] {
     font-size: 16px;
 }
 
-#kontaktOss{
+#kontakt_oss{
     max-width: 400px; 
     min-width: 300px;
     margin: 80px;
@@ -406,7 +406,7 @@ input[type="submit"] {
 }
 
 
-#kontaktOss form{
+#kontakt_oss form{
     width: 80%;
     margin-top: 5%;
 }
@@ -430,6 +430,7 @@ input[type="submit"] {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     gap: 25px;
+    background-color: var(--background_color-);
 }
 
 #skrift p {
@@ -463,6 +464,11 @@ input[type="submit"] {
     color: var(--black-);
 }
 
+#løsning_resultat_utskrift_box * {
+    margin-bottom: 20px;
+}
+
+
 #knapp_box {
     display: flex;
     justify-content: flex-start;
@@ -484,6 +490,42 @@ input[type="submit"] {
 .knapp:hover {
     background-color: var(--light_grey-);
 }
+
+#ofte_stilte_spørsmål_div {
+    width: 100%;
+    text-align: center;
+}
+
+#ofte_stilte_spørsmål_div h3{
+    font-size: larger;
+    margin-bottom: 40px;
+}
+
+.ofte_stilt_spørsmål {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selve_spørsmål {
+    height: 40px;
+    line-height: 40px; 
+    cursor: pointer;
+    background-color: var(--light_grey-);
+    color: var(--background_color-);
+    width: 80%;
+}
+
+.ofte_stilte_spørsmål_svar {
+    display: none; 
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+
 
 /*Jonas css her: */
 
@@ -598,26 +640,15 @@ input[type="submit"] {
 
 /*Fredrik css her: */
 
-.transport-h1 {
+.transport {
     text-align:center;
-    font-size: 36px;
-    
+    font-size: 30px;
 }
 
-.transport-h2 {
-    text-align:center;
-    font-size: 36px;
-}
-
-.transport-h3 {
-    text-align:center;
-    font-size: 36px;
-}
-
-.transport-h4 {
-    text-align:center;
-    font-size: 36px;
-}
+.mellomF li {
+    line-height: 1.0;
+    margin-bottom: 15px;
+} 
 
 .reisetabell1 {
     margin-top: 30px;
@@ -647,6 +678,47 @@ input[type="submit"] {
     color: whitesmoke;
     font-weight: bold;
 }
+
+.reisetabell {
+    background-color: black;
+    width: 100%;
+    margin: auto; /* For å sentrere tabellen */
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Styling for overskriftsraden */
+  .reisetabell tr:first-child {
+    background-color: grey;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Styling for celler i overskriftsraden */
+ .reisetabell th {
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    background-color:grey;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Styling for data-rader */
+ .reisetabell tr {
+    border: 1px solid black;
+    background-color: lightgrey;
+    text-align: center;
+  }
+  
+  .reisetabell td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+ 
+
+
 
 
 
