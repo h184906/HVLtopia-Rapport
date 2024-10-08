@@ -430,6 +430,7 @@ input[type="submit"] {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     gap: 25px;
+    background-color: var(--background_color-);
 }
 
 #skrift p {
@@ -463,6 +464,11 @@ input[type="submit"] {
     color: var(--black-);
 }
 
+#løsning_resultat_utskrift_box * {
+    margin-bottom: 20px;
+}
+
+
 #knapp_box {
     display: flex;
     justify-content: flex-start;
@@ -484,6 +490,7 @@ input[type="submit"] {
 .knapp:hover {
     background-color: var(--light_grey-);
 }
+
 
 /*Jonas css her: */
 
