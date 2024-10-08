@@ -561,7 +561,7 @@ input[type="submit"] {
 }
 
 .Energiimg {
-    position: realtive; 
+    position: relative; 
     margin-left: 10vw;
     margin-right: 15vw;
     margin-top: 2vw;
@@ -572,7 +572,7 @@ input[type="submit"] {
 }
 
 .Energiimg2 {
-    position: realtive; 
+    position: relative; 
     margin-right: 10vw;
     margin-left: 15vw;
     margin-top: 2vw;
@@ -583,7 +583,7 @@ input[type="submit"] {
 }
 
 .Energiimg3 {
-    position: realtive; 
+    position: relative; 
     margin-left: 10vw;
     margin-right: 15vw;
     margin-top: 2vw;
@@ -602,8 +602,9 @@ input[type="submit"] {
 .Energip {
     font-weight: bolder;
     color: #7d7d7d;
-    font-size: 1.3vw;
+    font-size: 1.6vw;
     font-variant-caps: small-caps;
+    margin-bottom: 1.5vw;
 }
 
 .Energip1 {
@@ -629,12 +630,34 @@ input[type="submit"] {
 
 .Energiinput{
     margin-bottom: 3vw;
+    background-color: rgba(255, 20, 20, 0.3);
 }
 
 .Energitable {
-    margin: 0 auto; 
+    width: 100%;
     border-collapse: collapse;
+    margin-bottom: 2vw;
 }
+
+.Energitable th,
+.Energitable td {
+    border: 1px solid #ccc;
+    padding: 8px;      
+    text-align: left; 
+}
+
+.Energitable th {
+    font-weight: bolder;
+    color: #7d7d7d;
+    font-size: 1.3vw;
+    font-variant-caps: small-caps;
+    background-color: #f4f4f4; 
+}
+
+.Energitable td {
+    font-size: 1.2vw; 
+}
+
 /*Gabriel css her: */
 
 
