@@ -546,6 +546,38 @@ input[type="submit"] {
     font-weight: bold;
 }
 
+table {
+    background-color: black;
+    width: 800px;
+    margin: auto; /* For å sentrere tabellen */
+    border-collapse: collapse;
+  }
+  
+  /* Styling for overskriftsraden */
+  table tr:first-child {
+    background-color: grey;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Styling for celler i overskriftsraden */
+  th {
+    width: 100px;
+    padding: 10px;
+  }
+  
+  /* Styling for data-rader */
+  tr {
+    background-color: lightgrey;
+    text-align: center;
+  }
+  
+  td {
+    padding: 10px;
+  }
+
+
+
 
 
 
