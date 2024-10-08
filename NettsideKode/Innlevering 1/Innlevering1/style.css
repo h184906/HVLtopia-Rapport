@@ -496,26 +496,12 @@ input[type="submit"] {
 
 /*Fredrik css her: */
 
-.transport-h1 {
+.transport {
     text-align:center;
-    font-size: 36px;
-    
+    font-size: 30px;
 }
 
-.transport-h2 {
-    text-align:center;
-    font-size: 36px;
-}
 
-.transport-h3 {
-    text-align:center;
-    font-size: 36px;
-}
-
-.transport-h4 {
-    text-align:center;
-    font-size: 36px;
-}
 
 .reisetabell1 {
     margin-top: 30px;
@@ -546,35 +532,44 @@ input[type="submit"] {
     font-weight: bold;
 }
 
-table {
+.reisetabell {
     background-color: black;
-    width: 800px;
+    width: 100%;
     margin: auto; /* For å sentrere tabellen */
     border-collapse: collapse;
+    border-spacing: 0;
   }
   
   /* Styling for overskriftsraden */
-  table tr:first-child {
+  .reisetabell tr:first-child {
     background-color: grey;
     color: white;
     text-align: center;
   }
   
   /* Styling for celler i overskriftsraden */
-  th {
+ .reisetabell th {
+    border: 1px solid black;
     width: 100px;
     padding: 10px;
+    background-color:grey;
+    color: white;
+    text-align: center;
   }
   
   /* Styling for data-rader */
-  tr {
+ .reisetabell tr {
+    border: 1px solid black;
     background-color: lightgrey;
     text-align: center;
   }
   
-  td {
+  .reisetabell td {
+    border: 1px solid black;
     padding: 10px;
   }
+
+ 
 
 
 
