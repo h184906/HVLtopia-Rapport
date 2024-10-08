@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>HVLtopia/ofteStilteSpørsmål</title>
+    <script defer src="sporsmaal.js"></script>
 </head>
 <body>
 
@@ -37,27 +38,37 @@
     
     <main>
 
-        <div id="kontaktOss">
-                <h2>Kontakt oss</h2>
-                <form>
-                    <input type="text" placeholder="Navn" required><br>
-                    <input type="text" placeholder="E-post" required><br>
-                    <textarea placeholder="Melding" rows="4" required></textarea><br>
-                    <input type="submit" value="Send melding">
-                </form>
+        <div id="kontakt_oss">
+            <h2>Kontakt oss</h2>
+            <form>
+                <input type="text" placeholder="Navn" required><br>
+                <input type="text" placeholder="E-post" required><br>
+                <textarea placeholder="Melding" rows="4" required></textarea><br>
+                <input type="submit" value="Send melding">
+            </form>
         </div>
 
-        <div>
-            <div>hei</div>
-            <div>hei</div>
-            <div>hei</div>
-            <div>hei</div>
-            <div>hei</div>
-            <div>hei</div>
-            <div>hei</div>
-            <div>hei</div>
-            <div>hei</div>
+
+        <div id="ofte_stilte_spørsmål_div">
+            <h3>Klikk på boksene under for å se svarene</h3>
+        
+            <div class="ofte_stilt_spørsmål">
+                <div class="selve_spørsmål">Hvordan kontaker jeg HVLtopia?</div>
+                <div class="ofte_stilte_spørsmål_svar">HVLtopias team kan nås ved å sende en main: <a href="mailto:HVLtopia.stud.eksempel@gmail.com" class="lesbarLink"><b>her</b></a>, eller ved å skrive i sende et spørsmål i Kontakt oss boksen over</div>
+            </div>
+        
+            <div class="ofte_stilt_spørsmål">
+                <div class="selve_spørsmål">Hvem har laget dette prosjektet?</div>
+                <div class="ofte_stilte_spørsmål_svar">DAT111 sine mest erfarne konsulenter</div>
+            </div>
+        
+            <div class="ofte_stilt_spørsmål">
+                <div class="selve_spørsmål">Har dette tatt lang tid?</div>
+                <div class="ofte_stilte_spørsmål_svar">ja.. men det har vært et kult prosjekt</div>
+            </div>
         </div>
+        
+        
     </main>
 
     <footer>

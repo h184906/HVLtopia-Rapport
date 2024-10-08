@@ -390,7 +390,7 @@ input[type="submit"] {
     font-size: 16px;
 }
 
-#kontaktOss{
+#kontakt_oss{
     max-width: 400px; 
     min-width: 300px;
     margin: 80px;
@@ -406,7 +406,7 @@ input[type="submit"] {
 }
 
 
-#kontaktOss form{
+#kontakt_oss form{
     width: 80%;
     margin-top: 5%;
 }
@@ -490,6 +490,41 @@ input[type="submit"] {
 .knapp:hover {
     background-color: var(--light_grey-);
 }
+
+#ofte_stilte_spørsmål_div {
+    width: 100%;
+    text-align: center;
+}
+
+#ofte_stilte_spørsmål_div h3{
+    font-size: larger;
+    margin-bottom: 40px;
+}
+
+.ofte_stilt_spørsmål {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selve_spørsmål {
+    height: 40px;
+    line-height: 40px; 
+    cursor: pointer;
+    background-color: var(--light_grey-);
+    color: var(--background_color-);
+    width: 80%;
+}
+
+.ofte_stilte_spørsmål_svar {
+    display: none; 
+    padding: 10px;
+    text-align: left;
+}
+
+
+
 
 
 /*Jonas css her: */
