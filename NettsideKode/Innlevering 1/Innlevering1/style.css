@@ -821,85 +821,38 @@ input[type="submit"] {
 }
 
 .box-row-1 {
-    width: 1250px;
-    height: 300px;
-    margin: 0 auto;
+    width: auto;
+    max-height: 400px;
     margin-top: 20px;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
     /*border: 2px solid black;*/
   }
-.box-row-1 h3 {
-    position: absolute;
-    top: 5%;
-    left: 2%;
+.box1 h3 {
+    position: relative;
+    top: -95%;
+    left: 5%;
     font-weight: bold;
     font-family: 'freight-big-pro';
     font-size: 23px;
     }
-.box2 h3 {
+.bærekraft-energi-h3 {
     color: white;
 }
 
-.box-row-2 {
-    width: 1250px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    position: relative;
-    /*border: 2px solid black;*/
-  }
+.bærekraft-transport-h3 {
+    color: white;
+}
 
 .box1{
-    width: 400px;
-    height: 100%;
-    position: absolute;
-    left: 0;
+    width: 30%;
+    margin: 10px;
+    max-height: 100%;
     /*border: 2px solid black;*/
   }
 
-.box2{
-    width: 400px;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    /*border: 2px solid black;*/
-  }
-
-.box3{
-    width: 400px;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    /*border: 2px solid black;*/
-  }
-
-.box4{
-    width: 400px;
-    height: 100%;
-    margin-bottom: 0;
-    position: absolute;
-    left: 0;
-    /*border: 2px solid black;*/
-  }
-
-.box5{
-    width: 400px;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    /*border: 2px solid black;*/
-  }
-
-.box6{
-    width: 400px;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    /*border: 2px solid black;*/
-  }
 
 
  
