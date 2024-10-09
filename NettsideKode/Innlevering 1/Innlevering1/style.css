@@ -390,7 +390,7 @@ input[type="submit"] {
     font-size: 16px;
 }
 
-#kontaktOss{
+#kontakt_oss{
     max-width: 400px; 
     min-width: 300px;
     margin: 80px;
@@ -406,7 +406,7 @@ input[type="submit"] {
 }
 
 
-#kontaktOss form{
+#kontakt_oss form{
     width: 80%;
     margin-top: 5%;
 }
@@ -430,6 +430,7 @@ input[type="submit"] {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     gap: 25px;
+    background-color: var(--background_color-);
 }
 
 #skrift p {
@@ -463,6 +464,11 @@ input[type="submit"] {
     color: var(--black-);
 }
 
+#løsning_resultat_utskrift_box * {
+    margin-bottom: 20px;
+}
+
+
 #knapp_box {
     display: flex;
     justify-content: flex-start;
@@ -485,11 +491,172 @@ input[type="submit"] {
     background-color: var(--light_grey-);
 }
 
+#ofte_stilte_spørsmål_div {
+    width: 100%;
+    text-align: center;
+}
+
+#ofte_stilte_spørsmål_div h3{
+    font-size: larger;
+    margin-bottom: 40px;
+}
+
+.ofte_stilt_spørsmål {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selve_spørsmål {
+    height: 40px;
+    line-height: 40px; 
+    cursor: pointer;
+    background-color: var(--light_grey-);
+    color: var(--background_color-);
+    width: 80%;
+}
+
+.ofte_stilte_spørsmål_svar {
+    display: none; 
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+
+
 /*Jonas css her: */
 
 
 /*Domas css her: */
- 
+
+.EnergiH1 {
+    text-align: right;
+    font-size: 100px;
+    margin-right: 3vw;
+    margin-top: 0.5vw;
+    position: absolute;
+    top: 10%;
+    right: 3vw; 
+    z-index: 1; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-variant-caps: small-caps;
+}
+
+.EnergiH2 {
+    text-align: right;
+    font-size: 30px;
+    margin-right: 3vw;
+    margin-bottom: 5vw;
+    position: absolute; 
+    top: 35%;
+    right: 3vw;
+    z-index: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-variant-caps: small-caps;
+}
+
+.Energiimg {
+    position: relative; 
+    margin-left: 10vw;
+    margin-right: 15vw;
+    margin-top: 2vw;
+    width: 25vw;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 200, 255, 0.30));
+}
+
+.Energiimg2 {
+    position: relative; 
+    margin-right: 10vw;
+    margin-left: 15vw;
+    margin-top: 2vw;
+    width: 25vw;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0 0 0.75rem rgb(0, 200, 255, 0.30));
+}
+
+.Energiimg3 {
+    position: relative; 
+    margin-left: 10vw;
+    margin-right: 15vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 30vw;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 200, 255, 0.30));
+}
+
+.Energicontainer {
+    display: flex; 
+    align-items: center; 
+}
+
+.Energip {
+    font-weight: bolder;
+    color: #7d7d7d;
+    font-size: 1.6vw;
+    font-variant-caps: small-caps;
+    margin-bottom: 1.5vw;
+}
+
+.Energip1 {
+    font-weight: bolder;
+    color: #7d7d7d;
+    font-size: 1.3vw;
+    font-variant-caps: small-caps;
+    margin-right: 4vw;
+}
+
+.Energip2 {
+    font-weight: bolder;
+    color: #7d7d7d;
+    font-size: 1.3vw;
+    font-variant-caps: small-caps;
+    margin-left: 5vw;
+}
+
+.Energitextarea {
+    width: 300px; 
+    height: 150px;
+}
+
+.Energiinput{
+    margin-bottom: 3vw;
+    background-color: rgba(255, 20, 20, 0.3);
+}
+
+.Energitable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2vw;
+}
+
+.Energitable th,
+.Energitable td {
+    border: 1px solid #ccc;
+    padding: 8px;      
+    text-align: left; 
+}
+
+.Energitable th {
+    font-weight: bolder;
+    color: #7d7d7d;
+    font-size: 1.3vw;
+    font-variant-caps: small-caps;
+    background-color: #f4f4f4; 
+}
+
+.Energitable td {
+    font-size: 1.2vw; 
+}
 
 /*Gabriel css her: */
 
