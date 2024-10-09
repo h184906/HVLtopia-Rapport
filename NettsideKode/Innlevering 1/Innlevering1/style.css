@@ -499,9 +499,10 @@ input[type="submit"] {
 .transport {
     text-align:center;
     font-size: 30px;
+    margin-top:20px;
 }
 
-.mellomF li {
+.mellomF li, p {
     line-height: 1.0;
     margin-bottom: 15px;
 } 
