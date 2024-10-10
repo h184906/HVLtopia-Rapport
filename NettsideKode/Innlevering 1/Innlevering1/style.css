@@ -867,7 +867,6 @@ input[type="submit"] {
    font-size: 150px;
    font-weight: normal;
    letter-spacing: -6.5px;
-   overflow-wrap: break-world;
   }
   .top-overskrift p {
     font-family:SpaceGrotesk-Medium;
