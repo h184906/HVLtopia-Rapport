@@ -1,7 +1,7 @@
 // for 
 const løsning_Knapp = document.getElementById("løsning_div");
 const resultat_Knapp = document.getElementById("resultat_div");
-const resultat_box = document.getElementById("løsning_resultat_utskrift_box");
+const resultat_box = document.querySelector(".løsning_resultat_utskrift_box");
 
 løsning_Knapp.addEventListener("click", function() {
     resultat_box.innerHTML = "";
