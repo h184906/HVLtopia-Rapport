@@ -678,6 +678,80 @@ input[type="submit"] {
 
 /*Gabriel css her: */
 
+#hovedinnhold {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgba(226, 225, 225, 0.813);
+    border-radius: 10px;
+}
+.overskrift{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#om_oss{
+    margin: auto;
+    padding: 5%;
+    background-color: #c4c9be;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+#hoved_overskrift{
+    font-size: 200%;
+}
+#avsnitt_om_oss{
+    margin-top: 3%;
+    font-size: 115%;
+}
+
+
+#gruppe{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgba(226, 225, 225, 0.813);
+    /* border: 1.5px solid black;
+    border-radius: 10px; */
+}
+#gruppebilde{
+    width: 70%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+#gruppe_tekstboks{
+    padding:0;
+}
+#underoverskrift1{
+    margin-bottom: 15%;
+}
+
+
+#kontakt_boks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1.5px solid black;
+    border-radius: 10px; */
+}
+#samtale_bilde{
+    width: 70%;
+    border-radius: 10px;
+}
+#link_tekst{
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
 
 /*Fredrik css her: */
 
