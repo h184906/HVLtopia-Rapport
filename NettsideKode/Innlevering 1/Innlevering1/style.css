@@ -559,14 +559,47 @@ input[type="submit"] {
     border: 5px;
     background-color: #253d0212;
     overflow: visible;
-    width: Default;
+}
+
+.innholdOmP {
+    height: 90%;
+    padding: 2px;
+    text-align: center;
+    
 }
 
 .paragrafOmP {
-    font-size: 100%;
+    font-size: 20px;
+
 }
 
+/*.items_info {
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    gap: 15px;
+}*/
 
+/*.vis {
+    width: 100%;
+}
+
+.diverse_items {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: space-between;
+}
+
+.diverse_items > div {
+    position: relative; 
+    width: 33%;
+    overflow: hidden;
+}
+*/
 
 
 
