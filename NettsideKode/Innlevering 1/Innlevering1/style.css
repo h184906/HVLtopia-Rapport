@@ -542,7 +542,26 @@ input[type="submit"] {
 
 
 
+
+
 /*Jonas css her: */
+
+.seksjon {
+    border-bottom-left-radius: 80px 80px;
+    border: 5px solid rgba(21, 92, 12, 0.033);
+    background-color: #0130080b;
+    /*height: 500px;
+    position: relative;*/
+
+}
+.seksjon > div {
+    border-bottom-left-radius: 80px 80px;
+    border: 5px;
+    background-color: #253d0212;
+    overflow: visible;
+    width: Default;
+}
+
 
 
 /*Domas css her: */
