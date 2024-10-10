@@ -529,24 +529,6 @@ input[type="submit"] {
 
 /*Jonas css her: */
 
-.seksjon {
-    border-bottom-left-radius: 80px 80px;
-    border: 5px solid rgba(21, 92, 12, 0.033);
-    background-color: #0130080b;
-    /*height: 500px;
-    position: relative;*/
-
-}
-.seksjon > div {
-    border-bottom-left-radius: 80px 80px;
-    border: 5px;
-    background-color: #253d0212;
-    overflow: visible;
-    width: Default;
-}
-
-
-
 
 /*Domas css her: */
 
@@ -732,6 +714,11 @@ input[type="submit"] {
 #underoverskrift1{
     margin-bottom: 15%;
 }
+.link_medlem_tekst{
+    text-decoration: none;
+    color: black;
+    font-size: 105%;
+}
 
 
 #kontakt_boks {
@@ -746,7 +733,7 @@ input[type="submit"] {
     border-radius: 10px;
 }
 #link_tekst{
-    margin-left: 5%;
+    margin-left: 10%;
     text-decoration: none;
     color: black;
     font-size: 150%;
@@ -913,40 +900,85 @@ input[type="submit"] {
 }
 
 .box-row-1 {
-    width: auto;
-    max-height: 400px;
+    width: 1250px;
+    height: 300px;
+    margin: 0 auto;
     margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+    position: relative;
     /*border: 2px solid black;*/
   }
-.box1 h3 {
-    position: relative;
-    top: -95%;
-    left: 5%;
+.box-row-1 h3 {
+    position: absolute;
+    top: 5%;
+    left: 2%;
     font-weight: bold;
     font-family: 'freight-big-pro';
     font-size: 23px;
     }
-.bærekraft-energi-h3 {
+.box2 h3 {
     color: white;
 }
 
-.bærekraft-transport-h3 {
-    color: white;
-}
-
-.box1{
-    width: 30%;
-    margin: 10px;
-    max-height: 100%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    filter: drop-shadow(0 0 0.75rem rgb(0, 200, 255, 0.30));
+.box-row-2 {
+    width: 1250px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
     /*border: 2px solid black;*/
   }
 
+.box1{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    /*border: 2px solid black;*/
+  }
+
+.box2{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /*border: 2px solid black;*/
+  }
+
+.box3{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    /*border: 2px solid black;*/
+  }
+
+.box4{
+    width: 400px;
+    height: 100%;
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    /*border: 2px solid black;*/
+  }
+
+.box5{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /*border: 2px solid black;*/
+  }
+
+.box6{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    /*border: 2px solid black;*/
+  }
 
 
  
