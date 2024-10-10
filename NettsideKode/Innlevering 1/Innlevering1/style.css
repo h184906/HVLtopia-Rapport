@@ -531,8 +531,9 @@ input[type="submit"] {
 }
 
 .personlig_side img {
-    width: 20%;
-    max-height: 550px;
+    max-width: 20%;
+    min-width: 400px;
+    height: 550px;
     object-fit: cover; 
     border: 20px solid var(--white-);
     border-radius: 5px;
