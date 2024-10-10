@@ -454,17 +454,17 @@ input[type="submit"] {
     height: 800px;
 }
 
-#løsning_resultat_utskrift_box {
+.løsning_resultat_utskrift_box {
     width: 80%;
     background-color: var(--white-);
     height: 500px;
     border-radius: 20px;
-    padding: 20px;
-    font-size: 18px;
+    padding: 40px;
+    font-size: 21px;
     color: var(--black-);
 }
 
-#løsning_resultat_utskrift_box * {
+.løsning_resultat_utskrift_box * {
     margin-bottom: 20px;
 }
 
@@ -523,7 +523,20 @@ input[type="submit"] {
     text-align: left;
 }
 
+.personlig_side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.personlig_side img {
+    width: 20%;
+    max-height: 550px;
+    object-fit: cover; 
+    border: 20px solid var(--white-);
+    border-radius: 5px;
+}
 
 
 
