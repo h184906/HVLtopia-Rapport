@@ -5,13 +5,13 @@ const resultat_box = document.querySelector(".løsning_resultat_utskrift_box");
 
 løsning_Knapp.addEventListener("click", function() {
     resultat_box.innerHTML = "";
-    resultat_box.innerHTML = "<h2>Løsning</h2> <h3>Transport</h3><p>Nye transport muligheter som hyperloopen, dronereisen og undervannstunellen</p><h3>Energibruk</h3><p>Nye måter å bruke å få energi har gjort bergen mer miljøvennlig og mer bærekraftig</p>";
+    resultat_box.innerHTML = "<h2>Løsning</h2><h3>Transport</h3><p>Innovative transportløsninger som hyperloop, dronereiser og undervannstunneler gjør reiser både raskere og mer miljøvennlige. Disse løsningene reduserer utslipp og bidrar til mindre trafikkbelastning i byområdene.</p><h3>Energibruk</h3><p>Bergen har tatt i bruk nye energikilder som sol-, vind-, og bølgekraft for å redusere karbonavtrykket. Smarte energisystemer sørger for optimal bruk og lagring av energi, noe som gjør byen grønnere og mer bærekraftig.</p>";
 });
 
 resultat_Knapp.addEventListener("click", function() {
     console.log("hei?")
     resultat_box.innerHTML = "";
-    resultat_box.innerHTML = "<h2>Resulat</h2><h3>Mer bærekraftig</h3><p>Med en bedre fokus på energi bruk og produksjonen har Bergen blitt mer bærekraftig</p><h3>Effektivitet og inovasjon</h3><p>Med de nye dronereisene, hyperloopen og undervannstunellene har det blitt raskere, mer effektivt og bedre for miljøet å reise i sentrum</p>";
+    resultat_box.innerHTML = "<h2>Resultat</h2><h3>Mer bærekraftig</h3><p>Takket være effektiv energibruk og ren energiproduksjon har Bergen redusert sine utslipp og skapt et sunnere miljø for både innbyggere og besøkende.</p><h3>Effektivitet og Innovasjon</h3><p>Med hyperloop, dronereiser og undervannstunneler har Bergen oppnådd raskere, mer effektive og bærekraftige reiser i sentrum, samtidig som den teknologiske innovasjonen øker livskvaliteten og tiltrekker seg internasjonal oppmerksomhet.</p>";
 });
 
 
